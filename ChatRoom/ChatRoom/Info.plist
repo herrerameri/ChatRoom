@@ -39,5 +39,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>La aplicación necesita tu permiso para acceder a las fotos de la galería.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>La aplicación necesita tu permiso para acceder a la cámara.</string>
 </dict>
 </plist>

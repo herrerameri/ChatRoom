@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297E10A51E3894AB00A2210E /* Chat_MyMessage_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 297E10A41E3894AB00A2210E /* Chat_MyMessage_Cell.m */; };
+		297E10A81E3894C700A2210E /* Chat_OtherMessage_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 297E10A71E3894C700A2210E /* Chat_OtherMessage_Cell.m */; };
+		297E10AB1E3894D600A2210E /* Chat_MyImage_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 297E10AA1E3894D600A2210E /* Chat_MyImage_Cell.m */; };
+		297E10AE1E3894F100A2210E /* Chat_OtherImage_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 297E10AD1E3894F100A2210E /* Chat_OtherImage_Cell.m */; };
+		29B3DB381E38B36000BCD9D3 /* varita.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29B3DB371E38B36000BCD9D3 /* varita.jpeg */; };
+		29B3DB3B1E38B37F00BCD9D3 /* libro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29B3DB3A1E38B37F00BCD9D3 /* libro.jpg */; };
+		29B3DB3D1E38B38300BCD9D3 /* patronus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29B3DB3C1E38B38300BCD9D3 /* patronus.jpeg */; };
+		29B3DB3F1E38B38700BCD9D3 /* grageas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29B3DB3E1E38B38700BCD9D3 /* grageas.jpeg */; };
+		29B3DB411E38B63100BCD9D3 /* lengua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29B3DB401E38B63100BCD9D3 /* lengua.jpg */; };
 		29BBFCD91E34E8A7005A7645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBFCD81E34E8A7005A7645 /* main.m */; };
 		29BBFCDC1E34E8A7005A7645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBFCDB1E34E8A7005A7645 /* AppDelegate.m */; };
 		29BBFCDF1E34E8A7005A7645 /* ChatRoom_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBFCDE1E34E8A7005A7645 /* ChatRoom_VC.m */; };
@@ -142,6 +151,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		297E10A31E3894AB00A2210E /* Chat_MyMessage_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat_MyMessage_Cell.h; sourceTree = "<group>"; };
+		297E10A41E3894AB00A2210E /* Chat_MyMessage_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat_MyMessage_Cell.m; sourceTree = "<group>"; };
+		297E10A61E3894C700A2210E /* Chat_OtherMessage_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat_OtherMessage_Cell.h; sourceTree = "<group>"; };
+		297E10A71E3894C700A2210E /* Chat_OtherMessage_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat_OtherMessage_Cell.m; sourceTree = "<group>"; };
+		297E10A91E3894D600A2210E /* Chat_MyImage_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat_MyImage_Cell.h; sourceTree = "<group>"; };
+		297E10AA1E3894D600A2210E /* Chat_MyImage_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat_MyImage_Cell.m; sourceTree = "<group>"; };
+		297E10AC1E3894F100A2210E /* Chat_OtherImage_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat_OtherImage_Cell.h; sourceTree = "<group>"; };
+		297E10AD1E3894F100A2210E /* Chat_OtherImage_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat_OtherImage_Cell.m; sourceTree = "<group>"; };
+		29B3DB371E38B36000BCD9D3 /* varita.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = varita.jpeg; sourceTree = "<group>"; };
+		29B3DB3A1E38B37F00BCD9D3 /* libro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libro.jpg; sourceTree = "<group>"; };
+		29B3DB3C1E38B38300BCD9D3 /* patronus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = patronus.jpeg; sourceTree = "<group>"; };
+		29B3DB3E1E38B38700BCD9D3 /* grageas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grageas.jpeg; sourceTree = "<group>"; };
+		29B3DB401E38B63100BCD9D3 /* lengua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lengua.jpg; sourceTree = "<group>"; };
 		29BBFCD41E34E8A7005A7645 /* ChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BBFCD81E34E8A7005A7645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29BBFCDA1E34E8A7005A7645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -294,6 +316,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B3DB391E38B37400BCD9D3 /* ImagenesChat */ = {
+			isa = PBXGroup;
+			children = (
+				29B3DB3E1E38B38700BCD9D3 /* grageas.jpeg */,
+				29B3DB401E38B63100BCD9D3 /* lengua.jpg */,
+				29B3DB3C1E38B38300BCD9D3 /* patronus.jpeg */,
+				29B3DB371E38B36000BCD9D3 /* varita.jpeg */,
+				29B3DB3A1E38B37F00BCD9D3 /* libro.jpg */,
+			);
+			name = ImagenesChat;
+			sourceTree = "<group>";
+		};
 		29BBFCCB1E34E8A7005A7645 = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +363,14 @@
 				29BBFDE41E34EE26005A7645 /* ChatList_VC.m */,
 				29BBFDF11E3517D0005A7645 /* Contact.h */,
 				29BBFDF21E3517D1005A7645 /* Contact.m */,
+				297E10A31E3894AB00A2210E /* Chat_MyMessage_Cell.h */,
+				297E10A41E3894AB00A2210E /* Chat_MyMessage_Cell.m */,
+				297E10A61E3894C700A2210E /* Chat_OtherMessage_Cell.h */,
+				297E10A71E3894C700A2210E /* Chat_OtherMessage_Cell.m */,
+				297E10A91E3894D600A2210E /* Chat_MyImage_Cell.h */,
+				297E10AA1E3894D600A2210E /* Chat_MyImage_Cell.m */,
+				297E10AC1E3894F100A2210E /* Chat_OtherImage_Cell.h */,
+				297E10AD1E3894F100A2210E /* Chat_OtherImage_Cell.m */,
 			);
 			path = ChatRoom;
 			sourceTree = "<group>";
@@ -344,6 +386,7 @@
 		29BBFCF31E34EB6D005A7645 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				29B3DB391E38B37400BCD9D3 /* ImagenesChat */,
 				29BBFDEE1E34F365005A7645 /* Personajes */,
 				29BBFCF41E34EB6D005A7645 /* AppIcon_120.png */,
 				29BBFCF51E34EB6D005A7645 /* avatar@2x.png */,
@@ -518,6 +561,7 @@
 				TargetAttributes = {
 					29BBFCD31E34E8A7005A7645 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L98G23Y6A4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -561,6 +605,7 @@
 				29BBFD941E34EB6D005A7645 /* tick_sent.png in Resources */,
 				29BBFDD91E34EB6E005A7645 /* woowos_refresh_pink.png in Resources */,
 				29BBFD9D1E34EB6D005A7645 /* woowos_app_logo.png in Resources */,
+				29B3DB3B1E38B37F00BCD9D3 /* libro.jpg in Resources */,
 				29BBFDD11E34EB6E005A7645 /* woowos_progressbar2.png in Resources */,
 				29BBFDA21E34EB6D005A7645 /* woowos_black_box.9.png in Resources */,
 				29BBFD7E1E34EB6D005A7645 /* ic_ab_back_holo_dark.png in Resources */,
@@ -590,10 +635,12 @@
 				29BBFDED1E34F35D005A7645 /* Harry.jpg in Resources */,
 				29BBFD7D1E34EB6D005A7645 /* company.png in Resources */,
 				29BBFDB81E34EB6E005A7645 /* woowos_cortina_down.png in Resources */,
+				29B3DB411E38B63100BCD9D3 /* lengua.jpg in Resources */,
 				29BBFDC31E34EB6E005A7645 /* woowos_logo.png in Resources */,
 				29BBFDD81E34EB6E005A7645 /* woowos_progressbar_no_movement.png in Resources */,
 				29BBFD9F1E34EB6D005A7645 /* woowos_back_arrow.png in Resources */,
 				29BBFD821E34EB6D005A7645 /* key.png in Resources */,
+				29B3DB3F1E38B38700BCD9D3 /* grageas.jpeg in Resources */,
 				29BBFD761E34EB6D005A7645 /* globo_blanc_c@2x.png in Resources */,
 				29BBFD871E34EB6D005A7645 /* progressbar_indeterminate_holo3.png in Resources */,
 				29BBFDC71E34EB6E005A7645 /* woowos_notification.png in Resources */,
@@ -621,6 +668,7 @@
 				29BBFDB51E34EB6E005A7645 /* woowos_correo_cyan.png in Resources */,
 				29BBFDAB1E34EB6D005A7645 /* woowos_chat_options.png in Resources */,
 				29BBFDE71E34F34A005A7645 /* Albus.jpeg in Resources */,
+				29B3DB381E38B36000BCD9D3 /* varita.jpeg in Resources */,
 				29BBFDE01E34EB6E005A7645 /* woowos_waiting_queue.png in Resources */,
 				29BBFD921E34EB6D005A7645 /* tick_pending.png in Resources */,
 				29BBFD991E34EB6D005A7645 /* tutorial_6.png in Resources */,
@@ -632,6 +680,7 @@
 				29BBFD961E34EB6D005A7645 /* tutorial_3.png in Resources */,
 				29BBFDA81E34EB6D005A7645 /* woowos_bubble_right.9.png in Resources */,
 				29BBFDC51E34EB6E005A7645 /* woowos_new_chat.png in Resources */,
+				29B3DB3D1E38B38300BCD9D3 /* patronus.jpeg in Resources */,
 				29BBFDBD1E34EB6E005A7645 /* woowos_gran.jpg in Resources */,
 				29BBFD8A1E34EB6D005A7645 /* progressbar_indeterminate_holo6.png in Resources */,
 				29BBFDDA1E34EB6E005A7645 /* woowos_refresh_white.png in Resources */,
@@ -681,8 +730,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297E10A81E3894C700A2210E /* Chat_OtherMessage_Cell.m in Sources */,
 				29BBFCDF1E34E8A7005A7645 /* ChatRoom_VC.m in Sources */,
 				29BBFDE51E34EE26005A7645 /* ChatList_VC.m in Sources */,
+				297E10AB1E3894D600A2210E /* Chat_MyImage_Cell.m in Sources */,
+				297E10AE1E3894F100A2210E /* Chat_OtherImage_Cell.m in Sources */,
+				297E10A51E3894AB00A2210E /* Chat_MyMessage_Cell.m in Sources */,
 				29BBFCDC1E34E8A7005A7645 /* AppDelegate.m in Sources */,
 				29BBFCD91E34E8A7005A7645 /* main.m in Sources */,
 				29BBFDF31E3517D1005A7645 /* Contact.m in Sources */,
@@ -806,6 +859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L98G23Y6A4;
 				INFOPLIST_FILE = ChatRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meriherrera.ChatRoom;
@@ -818,6 +872,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L98G23Y6A4;
 				INFOPLIST_FILE = ChatRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meriherrera.ChatRoom;
@@ -845,6 +900,7 @@
 				29BBFCED1E34E8A7005A7645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
