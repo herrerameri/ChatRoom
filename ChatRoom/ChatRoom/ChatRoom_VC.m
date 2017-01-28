@@ -15,6 +15,8 @@
     NSMutableArray* m_aMessages;
     UIActionSheet*  m_ActionSheet;
     UIImagePickerController *m_ImgPicker;
+    CGFloat y_toolbar;
+    CGFloat height_chat;
 }
 @end
 
@@ -39,6 +41,17 @@ const int CANCELAR = 2;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWasShown:) name:UIKeyboardWillShowNotification object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeHidden:) name:UIKeyboardWillHideNotification object:nil];
+    
+    y_toolbar = _toolbar.frame.origin.y;
+    height_chat = _chatTable.frame.size.height;
+    
+    // Gesto esconder teclado
+    UITapGestureRecognizer* gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideKeyboard)];
+    [_chatTable addGestureRecognizer:gesture];
+}
+
+-(void) hideKeyboard{
+    [[self view] endEditing:TRUE];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -471,11 +484,13 @@ const int CANCELAR = 2;
     [UIView animateWithDuration:0.2f animations:^{
         
         CGRect frame = _toolbar.frame;
-        frame.origin.y += kbSize.height;
+        //frame.origin.y += kbSize.height;
+        frame.origin.y  = y_toolbar;
         _toolbar.frame = frame;
         
         frame = _chatTable.frame;
-        frame.size.height += kbSize.height;
+        //frame.size.height += kbSize.height;
+        frame.size.height = height_chat;
         _chatTable.frame = frame;
     }];
 }
