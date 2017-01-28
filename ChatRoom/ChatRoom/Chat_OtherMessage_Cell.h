@@ -7,5 +7,6 @@
 
 @interface Chat_OtherMessage_Cell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *message;
+@property (strong, nonatomic) IBOutlet UILabel *hour;
 
 @end

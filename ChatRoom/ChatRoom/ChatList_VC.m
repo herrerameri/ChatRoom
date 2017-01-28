@@ -38,7 +38,7 @@
     albus.phone = @"+349345456248";
     albus.photo = [UIImage imageNamed:@"Albus.jpeg"];
     
-    m_contacts = [[NSMutableArray alloc] initWithObjects:harry, hermione, ron, albus, nil];
+    m_contacts = [[NSMutableArray alloc] initWithObjects:harry, albus, ron, hermione, nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *m_name;
 @property (strong, nonatomic) IBOutlet UILabel *m_phone;
 @property (strong, nonatomic) IBOutlet UIImageView *m_photo;
+@property (strong, nonatomic) IBOutlet UITableView *chatTable;
+@property (strong, nonatomic) IBOutlet UITextField *messageUser;
+@property (strong, nonatomic) IBOutlet UIView *toolbar;
 
 @property (nonatomic, assign) Contact* m_contact;
 

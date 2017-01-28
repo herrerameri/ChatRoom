@@ -148,6 +148,9 @@
 		29BBFDEB1E34F356005A7645 /* Hermione.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29BBFDEA1E34F356005A7645 /* Hermione.jpeg */; };
 		29BBFDED1E34F35D005A7645 /* Harry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29BBFDEC1E34F35D005A7645 /* Harry.jpg */; };
 		29BBFDF31E3517D1005A7645 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBFDF21E3517D1005A7645 /* Contact.m */; };
+		29C3607B1E39F0C900EFE66B /* sorpresa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29C3607A1E39F0C900EFE66B /* sorpresa.jpeg */; };
+		29C3607D1E39F18700EFE66B /* patronus2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29C3607C1E39F18700EFE66B /* patronus2.jpeg */; };
+		29C3607F1E39F20500EFE66B /* libro2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C3607E1E39F20500EFE66B /* libro2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -303,6 +306,9 @@
 		29BBFDEC1E34F35D005A7645 /* Harry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Harry.jpg; sourceTree = "<group>"; };
 		29BBFDF11E3517D0005A7645 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		29BBFDF21E3517D1005A7645 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		29C3607A1E39F0C900EFE66B /* sorpresa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sorpresa.jpeg; sourceTree = "<group>"; };
+		29C3607C1E39F18700EFE66B /* patronus2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = patronus2.jpeg; sourceTree = "<group>"; };
+		29C3607E1E39F20500EFE66B /* libro2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libro2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,7 +327,10 @@
 			children = (
 				29B3DB3E1E38B38700BCD9D3 /* grageas.jpeg */,
 				29B3DB401E38B63100BCD9D3 /* lengua.jpg */,
+				29C3607A1E39F0C900EFE66B /* sorpresa.jpeg */,
 				29B3DB3C1E38B38300BCD9D3 /* patronus.jpeg */,
+				29C3607C1E39F18700EFE66B /* patronus2.jpeg */,
+				29C3607E1E39F20500EFE66B /* libro2.jpg */,
 				29B3DB371E38B36000BCD9D3 /* varita.jpeg */,
 				29B3DB3A1E38B37F00BCD9D3 /* libro.jpg */,
 			);
@@ -609,6 +618,7 @@
 				29BBFDD11E34EB6E005A7645 /* woowos_progressbar2.png in Resources */,
 				29BBFDA21E34EB6D005A7645 /* woowos_black_box.9.png in Resources */,
 				29BBFD7E1E34EB6D005A7645 /* ic_ab_back_holo_dark.png in Resources */,
+				29C3607F1E39F20500EFE66B /* libro2.jpg in Resources */,
 				29BBFD931E34EB6D005A7645 /* tick_read.png in Resources */,
 				29BBFDDD1E34EB6E005A7645 /* woowos_top_divider.9.png in Resources */,
 				29BBFDAC1E34EB6D005A7645 /* woowos_chat_options_pressed.png in Resources */,
@@ -689,6 +699,7 @@
 				29BBFD851E34EB6D005A7645 /* progressbar_indeterminate_holo1.png in Resources */,
 				29BBFDD51E34EB6E005A7645 /* woowos_progressbar6.png in Resources */,
 				29BBFDA71E34EB6D005A7645 /* woowos_bubble_purple.9.png in Resources */,
+				29C3607B1E39F0C900EFE66B /* sorpresa.jpeg in Resources */,
 				29BBFDE91E34F34F005A7645 /* Ron.jpg in Resources */,
 				29BBFD8E1E34EB6D005A7645 /* tick_deleted.png in Resources */,
 				29BBFDCD1E34EB6E005A7645 /* woowos_phone_white.png in Resources */,
@@ -711,6 +722,7 @@
 				29BBFD731E34EB6D005A7645 /* button_add.png in Resources */,
 				29BBFDAF1E34EB6E005A7645 /* woowos_circulo_blanco.9.png in Resources */,
 				29BBFDCA1E34EB6E005A7645 /* woowos_option_chat_pressed.png in Resources */,
+				29C3607D1E39F18700EFE66B /* patronus2.jpeg in Resources */,
 				29BBFDD31E34EB6E005A7645 /* woowos_progressbar4.png in Resources */,
 				29BBFD6D1E34EB6D005A7645 /* avatar@2x.png in Resources */,
 				29BBFDD71E34EB6E005A7645 /* woowos_progressbar8.png in Resources */,
